@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginActivity"
+    android:background="#181B2E">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="154dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        app:srcCompat="@drawable/login1" />
+
+    <EditText
+        android:fontFamily="monospace"
+        android:id="@+id/etUsername"
+        android:layout_width="238dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/tvPleaseLogin"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="14dp"
+        android:hint="Username/Email"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="#C6C4C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPleaseLogin" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/btnLogin"
+        android:layout_width="137dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#7C807A"
+        android:text="Login"
+        android:textColor="@color/black"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    <EditText
+        android:fontFamily="monospace"
+        android:id="@+id/etPassword"
+        android:layout_width="238dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/etUsername"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="14dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="#C6C4C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUsername" />
+
+    <CheckBox
+        android:id="@+id/CbShowPassword"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/etPassword"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <TextView
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="164dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="8dp"
+        android:text="Create New Account"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+    <TextView
+        android:fontFamily="monospace"
+        android:id="@+id/tvPleaseLogin"
+        android:layout_width="203dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="252dp"
+        android:text="SIGN IN"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="251dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="292dp"
+        android:text="Come back with your ID"
+        android:textAlignment="center"
+        android:textColor="#7A7979"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="251dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="316dp"
+        android:text="For easy, fast and secure login"
+        android:textAlignment="center"
+        android:textColor="#7A7979"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="20dp"
+        android:text="V1.0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

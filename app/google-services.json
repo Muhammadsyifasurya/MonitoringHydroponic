@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "732996989419",
+    "project_id": "fir-crud-aaa98",
+    "storage_bucket": "fir-crud-aaa98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732996989419:android:55ae967c43444daf15a9ae",
+        "android_client_info": {
+          "package_name": "id.mentoring.monitoringhidroponik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732996989419-1nmfsnf5p23ckv6gci9us9nlabdo24q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4pwq_TmpaLekscK4w-4WWiFhYD63y2Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732996989419-1nmfsnf5p23ckv6gci9us9nlabdo24q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
